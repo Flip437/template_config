@@ -17,8 +17,8 @@
  // to add more path and avoid relative name files, add folders into asset.rb with # Rails.application.config.assets.paths << Rails.root.join("vendor", "assets", "stylesheets", "bootstrap", "css")
 
  *= require bootstrap/css/bootstrap.min
- *= require fontawesome
- *= require templatemo-plot-listing
- *= require animated
- *= require owl
+ *= require assets/css/fontawesome
+ *= require assets/css/templatemo-plot-listing
+ *= require assets/css/animated
+ *= require assets/css/owl
  */

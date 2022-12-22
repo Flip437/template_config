@@ -2,8 +2,8 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 
-import "allo";
-import "allo2";
+// import "allo";
+// import "allo2";
 import "jquery"
 import "bootstrap"
 import "owl-carousel"
