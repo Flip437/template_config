@@ -13,7 +13,10 @@
  *= require_tree .
  *= require_self
 
- *= require bootstrap.min
+ // Rails will look into thoses path : rails c --> Rails.application.config.assets.paths
+ // to add more path and avoid relative name files, add folders into asset.rb with # Rails.application.config.assets.paths << Rails.root.join("vendor", "assets", "stylesheets", "bootstrap", "css")
+
+ *= require bootstrap/css/bootstrap.min
  *= require fontawesome
  *= require templatemo-plot-listing
  *= require animated

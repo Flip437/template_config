@@ -10721,4 +10721,7 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=bootstrap.min.css.map */
+/* Rails will look under vendor/assets/stylesheets for following file. So here we need to pass */
+/* relativz name file or add more path into assets.rb */
+
+/*# sourceMappingURL=bootstrap/css/bootstrap.min.css.map */
