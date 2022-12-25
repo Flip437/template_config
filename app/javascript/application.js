@@ -7,7 +7,6 @@ import "controllers"
 import "jquery"
 import "bootstrap"
 import "owl-carousel"
-// import "animation"
 import "imagesloaded"
 import "custom"
-
+// import "animation"
